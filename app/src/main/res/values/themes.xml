@@ -1,0 +1,47 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.CoreKotlinRemaster" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+
+    </style>
+    <!--switchCompat的配色-->
+    <style name="switchStyle">
+
+        <!--开启时的颜色-->
+        <item name="colorControlActivated">#00e6db</item>
+        <!--关闭时的颜色-->
+        <item name="colorSwitchThumbNormal">#383434</item>
+        <!--关闭时的轨迹颜色-->
+        <item name="android:colorForeground">#ecd502</item>
+    </style>
+
+    <style name="Theme.CoreKotlinRemaster.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an
+             animated drawable. One of these is required. -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_startpage</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/white</item>
+        <!-- Required for animated icons -->
+        <item name="windowSplashScreenAnimationDuration">1600</item>
+
+        <!-- Set the theme of the Activity that directly follows your splash screen. -->
+        <!-- Required -->
+        <item name="postSplashScreenTheme">@style/Theme.CoreKotlinRemaster</item>
+    </style>
+
+</resources>

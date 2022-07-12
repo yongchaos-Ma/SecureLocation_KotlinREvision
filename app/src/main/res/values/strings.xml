@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CoreKotlinRemaster</string>
+    <string name="ch_OpenBluetooth">开启蓝牙</string>
+    <string name="ch_CloseBluetooth">关闭蓝牙</string>
+    <string name="info_message">欢迎使用安游天下，本应用旨在为户外旅游用户提供方便、直观、全面的位置信息服务与安全提醒。\n本应用承诺对用户信息完全保密，仅作为位置信息与安全分析使用，不用做其他任何商业用途。\n本应用需要您同意下列权限以使用完整功能： </string>
+    <string name="info_permission">\t获取您的位置信息以进行定位、导航以及信息共享\n\t在您的设备上存储离线资源（如离线地图等）\n\t使用您的麦克风以录制语音短消息\n\t开启蓝牙以连接无线通信装置</string>
+    <string name="info_btn_agree">同意并继续</string>
+    <string name="info_btn_notagree">不，我再想想</string>
+</resources>
